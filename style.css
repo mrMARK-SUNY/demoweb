@@ -1,0 +1,20 @@
+/* stuff to do */
+/* styles for demo web */
+body { background-image: url("orange2.png"); 
+font-family: 'Fugaz One', cursive;
+color:#2a0d08;
+}
+main { 
+min-height:95vh;
+display:flex;
+flex-flow: column wrap;
+align-content: stretch;
+ }
+
+.box {     
+	font-size: 3rem;
+margin:5rem;
+flex-grow: 1;
+}
+
+.logos {width:25rem;margin:2rem; align-self:flex-end; display:flex;}
